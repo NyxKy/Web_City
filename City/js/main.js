@@ -157,7 +157,59 @@ const translations = {
         
         // Footer
         "footer_copyright": "© 2025 Visit Pyongyang. 모든 권리 보유."
-    }
+    },
+    pl: {
+        // Navbar
+        "navbar_brand": "Pyongyang",
+        "nav_home": "Home",
+        "nav_monuments": "Monumenti",
+        "nav_iconic_places": "Znane krajobrazy",
+        "nav_info": "Informacje",
+        "current_lang": "PL",
+        
+        // Hero Section
+        "hero_new": "Nowy!",
+        "hero_title": "Pyongyang",
+        "hero_lead": "Scopri la capitale della Corea del Nord: architettura monumentale, grandi viali e panorami urbani unici.",
+        
+        // Sezioni Monumenti
+        "monuments_title": "Monumenti Principali",
+        "monuments_subtitle": "I simboli più iconici della capitale nordcoreana",
+        "monument_arch": "Arco di Trionfo",
+        "monument_arch_desc": "Il più grande arco di trionfo al mondo, costruito per celebrare la resistenza coreana",
+        "monument_juche": "Torre Juche",
+        "monument_juche_desc": "Simbolo dell'ideologia Juche, offre una vista panoramica sulla città",
+        "monument_victory": "Monumento alla Vittoria",
+        "monument_victory_desc": "Celebra la vittoria nella guerra di liberazione della patria",
+        
+        // Sezioni Luoghi Iconici
+        "iconic_title": "Luoghi Iconici",
+        "iconic_subtitle": "Le location più rappresentative di Pyongyang",
+        "place_ryomyong": "Ryomyong Street",
+        "place_ryomyong_desc": "Moderno quartiere residenziale con architettura avanguardista",
+        "place_kimilsung": "Piazza Kim Il-sung",
+        "place_kimilsung_desc": "La piazza principale per parate e celebrazioni nazionali",
+        "place_moranbong": "Moranbong Park",
+        "place_moranbong_desc": "Parco storico nel cuore della città, luogo di relax e cultura",
+        
+        // Sezione Informazioni
+        "info_title": "Informazioni Utili",
+        "info_lead": "Tutto ciò che devi sapere per visitare Pyongyang: trasporti, tour guidati, prenotazioni e attrazioni principali.",
+        "info_button": "Pianifica la tua visita",
+        
+        // Feature Boxes
+        "feature_transport": "Trasporti",
+        "feature_transport_desc": "Come raggiungere la città",
+        "feature_visa": "Visto & Documenti",
+        "feature_visa_desc": "Requisiti di ingresso",
+        "feature_tours": "Tour Guidati",
+        "feature_tours_desc": "Esperienze organizzate",
+        "feature_info": "Informazioni",
+        "feature_info_desc": "Guide e consigli utili",
+        
+        // Footer
+        "footer_copyright": "© 2025 Visit Pyongyang. Tutti i diritti riservati."
+    },
 };
 
 // Funzione per cambiare lingua
