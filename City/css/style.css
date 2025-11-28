@@ -1,0 +1,285 @@
+/* =====================================
+   RESET
+===================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #0d0d0d;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* ================================
+   GENERALE (SFONDO + FONT)
+================================ */
+
+body {
+    background: radial-gradient(circle at top, #1b1e2b, #0f1117);
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+/* testo dentro sfondi glass */
+section h2, section p, .card, .icon-box {
+    color: #fff;
+}
+
+.text-muted {
+    color: #fff !important;
+}
+
+/* ================================
+   GLASSMORPHISM UNIVERSALE
+================================ */
+
+.glass {
+    backdrop-filter: blur(18px) saturate(160%);
+    -webkit-backdrop-filter: blur(18px) saturate(160%);
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.22);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.28);
+    border-radius: 18px;
+}
+
+/* versioni più leggere / più scure */
+.glass-light {
+    backdrop-filter: blur(15px) saturate(160%);
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.35);
+    box-shadow: 0 10px 35px rgba(0,0,0,0.20);
+}
+
+.glass-dark {
+    backdrop-filter: blur(22px) saturate(160%);
+    background: rgba(10,10,20,0.55);
+    border: 1px solid rgba(255,255,255,0.10);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.45);
+}
+
+/* ================================
+   NAVBAR
+================================ */
+
+.glass-nav {
+    backdrop-filter: blur(22px) saturate(160%);
+    background: rgba(15,15,25,0.55) !important;
+    border-bottom: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.navbar .flag,
+.navbar .lang-text {
+    color: #fff;
+}
+
+/* dropdown */
+.glass-dropdown {
+    backdrop-filter: blur(22px) saturate(170%);
+    background: rgba(20,20,30,0.6);
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,0.25);
+}
+
+.glass-dropdown .dropdown-item {
+    color: #fff;
+}
+
+/* =====================================
+   HERO (BANDIERA NORD COREA SULLO SFONDO)
+===================================== */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    
+    background: 
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.75)),
+        url("../img/Flag_of_North_Korea.png") center top/cover no-repeat;
+}
+
+
+.hero .inner-hero {
+    padding: 50px;
+    max-width: 650px;
+    text-align: center;
+    border-radius: 25px;
+
+    background: rgba(255,255,255,0.10);
+    backdrop-filter: blur(22px);
+    border: 1px solid rgba(255,255,255,0.25);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.45);
+}
+
+/* =====================================
+   SECTION (FULL GLASS, NO SOVRAPPOSIZIONE)
+===================================== */
+.section {
+    padding: 90px 25px;
+    width: 100%;
+
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+
+    /* garantisce che non si veda la sezione successiva */
+    position: relative;
+    z-index: 1;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+/* =====================================
+   CARD GRID GLASS
+===================================== */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.card {
+    padding: 25px;
+    border-radius: 20px;
+
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.22);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.30);
+
+    transition: transform 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+#customs .card-body .card-title,
+#history  .card-body .card-title {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+#customs .card-body .card-text,
+#history  .card-body .card-text {
+    line-height: 1.7;
+}
+#leader .card-img-top {
+    width: 100%;
+    height: 425px;
+    object-fit: cover;
+}
+
+#monumenti .card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+#luoghi .card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+/* =====================================
+   FOOTER GLASS
+===================================== */
+footer {
+    padding: 25px;
+    text-align: center;
+
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(18px);
+    border-top: 1px solid rgba(255,255,255,0.22);
+}
+
+/* =====================================
+   FADE ANIMATION
+===================================== */
+.fade {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+}
+
+.fade.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* =====================================
+   LANGUAGE DROPDOWN GLASS
+===================================== */
+.language-selector {
+    position: relative;
+}
+
+.language-selector .current-lang {
+    padding: 10px 16px;
+    border-radius: 12px;
+
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+}
+
+.lang-dropdown {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    display: none;
+
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(18px);
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.22);
+}
+
+.language-selector:hover .lang-dropdown {
+    display: block;
+}
+
+.music-widget {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1080;
+    width: 320px;
+    padding: 12px;
+    border-radius: 16px;
+}
+
+.music-widget.hidden { display: none; }
+
+.music-widget audio { width: 100%; }
+
+.music-open {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1080;
+    display: none;
+    border-radius: 50px;
+    backdrop-filter: blur(22px) saturate(170%);
+    background: rgba(20,20,30,0.6);
+    border: 1px solid rgba(255,255,255,0.25);
+}
