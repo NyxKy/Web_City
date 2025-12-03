@@ -1,56 +1,46 @@
-Web City – Pyongyang
+🌐 Web City – Pyongyang
 
-Per questo progetto abbiamo realizzato un sito web dedicato alla città di Pyongyang.
-L’obiettivo era utilizzare HTML, CSS, JavaScript e Bootstrap, collaborando tramite GitHub per la gestione del codice.
-La maggior parte della logica è sviluppata in JavaScript, mentre HTML e CSS si occupano rispettivamente della struttura e della grafica.
-Il progetto è stato organizzato in cartelle per mantenere separati i vari tipi di file.
+Sito web dedicato alla città di Pyongyang, sviluppato utilizzando HTML, CSS, JavaScript e Bootstrap.
+Il progetto è stato realizzato in collaborazione tramite GitHub, organizzando il codice in cartelle separate per mantenere pulizia e ordine.
 
-🛠️ Organizzazione del lavoro
-Struttura
+📁 Tecnologie Utilizzate
+  - HTML5
+  - CSS3
+  - JavaScript
+  - Bootstrap 5
 
-Un membro del gruppo si è occupato della struttura HTML e delle funzionalità JavaScript, creando l’architettura base del sito.
+👥 Organizzazione del Lavoro
+  - 🔧 Struttura
+      - Un membro del gruppo ha realizzato la struttura HTML e le funzionalità principali in JavaScript.
+  - 🎨 Grafica
+    - Un altro membro si è occupato della parte estetica tramite CSS, migliorando la grafica e la responsività.
+  - 🌍 Contenuti
+    - Gli altri membri del team hanno integrato funzionalità aggiuntive, tra cui la traduzione del sito in più lingue (arabo, bengalese, ecc.).
 
-Grafica
+🧰 Strumenti Utilizzati
+  - 💻 Software
+    - GitHub – gestione del codice, commit e collaborazione
+    - VS Code – editor di sviluppo
+    - TRAE (
+  
+  - 🤖 AI 
+    - ChatGPT
+    - DeepSeek
+    - Gemini
+  Le AI sono state utilizzate per generare idee, miglioramenti e possibili nuove funzionalità, confrontando diverse soluzioni.
 
-Un altro membro si è occupato della grafica tramite CSS, migliorando l’aspetto visuale e l’adattabilità del layout.
+⚠️ Problemi Incontrati
+  - Push errato sul branch main, risolto tramite ripristino da un file di backup.
 
-Contenuti
+📑 Struttura del Sito
+  - 🔝 Navbar
+    - Navbar completamente responsive
+    - Sezioni principali del sito facilmente accessibili
+    - Dropdown per la selezione della lingua
 
-Gli altri membri hanno integrato funzionalità aggiuntive, come la traduzione multilingua (arabo, bengalese, ecc.).
-
-📦 Applicazioni e Strumenti Utilizzati
-Strumenti di sviluppo
-
-GitHub – per la condivisione e il versionamento del codice
-
-VS Code – editor di sviluppo
-
-TRAE – (se utile, puoi specificare a cosa serve)
-
-AI utilizzate
-
-ChatGPT
-
-DeepSeek
-
-Gemini
-
-Abbiamo utilizzato diversi strumenti di intelligenza artificiale per generare idee, proporre miglioramenti e valutare nuove funzionalità, confrontando le soluzioni proposte e integrando le più efficaci.
-
-❗ Problemi incontrati
-
-Un push errato sul branch main, risolto ripristinando la versione corretta tramite un file di backup.
-
-📑 Struttura del sito (Navbar)
-
-Navbar responsive
-
-Diverse sezioni principali del sito
-
-Dropdown per la selezione della lingua
-
-✅ Conclusione
-
-Il progetto è stato completato con successo.
-Il sito funziona correttamente, ha una struttura chiara e tutti i membri del gruppo hanno contribuito attivamente.
-Possiamo migliorare l’uso dei branch e delle pull request, ma complessivamente siamo riusciti a soddisfare tutte le richieste del progetto.
+✔️ Conclusioni
+Il progetto è stato completato con successo:
+  - Il sito funziona correttamente
+  - La struttura è chiara
+  - Ogni membro del gruppo ha contribuito al lavoro
+  - Un miglior uso di branch e pull request potrà migliorare future collaborazioni, ma gli obiettivi principali sono stati raggiunti.
