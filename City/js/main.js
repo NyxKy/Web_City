@@ -1,6 +1,4 @@
-/* ===============================
-   TRADUZIONI
-================================*/
+//Traduzioni
 const translations = {
     it: {
         navbar_brand: "Corea del Nord",
@@ -353,9 +351,7 @@ const translations = {
 }
 };
 
-/* =====================================
-   CAMBIO LINGUA
-=====================================*/
+//Cambio lingua
 function changeLang(lang) {
     document.documentElement.lang = lang;
     localStorage.setItem("lang", lang);
@@ -382,9 +378,7 @@ function changeLang(lang) {
     "평양 - 수도";
 }
 
-/* ======================================================
-   FADE-IN ANIMATION
-====================================================== */
+//Animazione fade-in
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -396,9 +390,7 @@ const observer = new IntersectionObserver(entries => {
 
 document.querySelectorAll(".fade").forEach(el => observer.observe(el));
 
-/* ======================================================
-   EVENTI DOM READY
-====================================================== */
+//DOM pronto
 document.addEventListener("DOMContentLoaded", () => {
     // imposta lingua salvata
     const saved = localStorage.getItem("lang") || "it";
