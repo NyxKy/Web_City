@@ -11,7 +11,7 @@ Il progetto è stato realizzato in collaborazione tramite GitHub, organizzando i
 
 👥 Organizzazione del Lavoro
   - 🔧 Struttura
-      - Un membro del gruppo ha realizzato la struttura HTML e le funzionalità principali in JavaScript.
+      - Un membro del gruppo ha realizzato la struttura HTML e le funzionalità principali in JavaScript. Mentre gli altri mebri facevano ricerche
   - 🎨 Grafica
     - Un altro membro si è occupato della parte estetica tramite CSS, migliorando la grafica e la responsività.
   - 🌍 Contenuti
