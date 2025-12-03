@@ -1,6 +1,4 @@
-/* =====================================
-   RESET
-===================================== */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -14,10 +12,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ================================
-   GENERALE (SFONDO + FONT)
-================================ */
-
+/* Sfondo */
 body {
     background: radial-gradient(circle at top, #1b1e2b, #0f1117);
     color: #fff;
@@ -33,10 +28,8 @@ section h2, section p, .card, .icon-box {
     color: #fff !important;
 }
 
-/* ================================
-   GLASSMORPHISM UNIVERSALE
-================================ */
 
+/* Blur */
 .glass {
     backdrop-filter: blur(18px) saturate(160%);
     -webkit-backdrop-filter: blur(18px) saturate(160%);
@@ -46,25 +39,7 @@ section h2, section p, .card, .icon-box {
     border-radius: 18px;
 }
 
-/* versioni più leggere / più scure */
-.glass-light {
-    backdrop-filter: blur(15px) saturate(160%);
-    background: rgba(255,255,255,0.18);
-    border: 1px solid rgba(255,255,255,0.35);
-    box-shadow: 0 10px 35px rgba(0,0,0,0.20);
-}
-
-.glass-dark {
-    backdrop-filter: blur(22px) saturate(160%);
-    background: rgba(10,10,20,0.55);
-    border: 1px solid rgba(255,255,255,0.10);
-    box-shadow: 0 10px 40px rgba(0,0,0,0.45);
-}
-
-/* ================================
-   NAVBAR
-================================ */
-
+/* Navbar */
 .glass-nav {
     backdrop-filter: blur(22px) saturate(160%);
     background: rgba(15,15,25,0.55) !important;
@@ -89,9 +64,7 @@ section h2, section p, .card, .icon-box {
     color: #fff;
 }
 
-/* =====================================
-   HERO (BANDIERA NORD COREA SULLO SFONDO)
-===================================== */
+/* Hero */
 .hero {
     height: 100vh;
     display: flex;
@@ -103,7 +76,6 @@ section h2, section p, .card, .icon-box {
         linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.75)),
         url("../img/Flag_of_North_Korea.png") center top/cover no-repeat;
 }
-
 
 .hero .inner-hero {
     padding: 50px;
@@ -117,9 +89,7 @@ section h2, section p, .card, .icon-box {
     box-shadow: 0 15px 40px rgba(0,0,0,0.45);
 }
 
-/* =====================================
-   SECTION (FULL GLASS, NO SOVRAPPOSIZIONE)
-===================================== */
+/* Section */
 .section {
     padding: 90px 25px;
     width: 100%;
@@ -141,9 +111,7 @@ section h2, section p, .card, .icon-box {
     font-weight: 700;
 }
 
-/* =====================================
-   CARD GRID GLASS
-===================================== */
+/* Cards */
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -200,9 +168,8 @@ section h2, section p, .card, .icon-box {
     height: 250px;
     object-fit: cover;
 }
-/* =====================================
-   FOOTER GLASS
-===================================== */
+
+/* Footer */
 footer {
     padding: 25px;
     text-align: center;
@@ -212,9 +179,7 @@ footer {
     border-top: 1px solid rgba(255,255,255,0.22);
 }
 
-/* =====================================
-   FADE ANIMATION
-===================================== */
+/* Fade in animation */
 .fade {
     opacity: 0;
     transform: translateY(20px);
@@ -226,9 +191,7 @@ footer {
     transform: translateY(0);
 }
 
-/* =====================================
-   LANGUAGE DROPDOWN GLASS
-===================================== */
+/* Language selector blur */
 .language-selector {
     position: relative;
 }
@@ -265,7 +228,7 @@ footer {
     z-index: 1080;
     width: 320px;
     padding: 12px;
-    border-radius: 16px;
+    border-radius: 30px;
 }
 
 .music-widget.hidden { display: none; }
