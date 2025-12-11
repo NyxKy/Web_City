@@ -55,7 +55,24 @@ const translations = {
         history_modern: "Era moderna",
         history_modern_desc: "Ammodernamento con nuovi boulevard, architetture residenziali e rinnovo di piazze; enfasi su monumentalità e ordine urbano.",
         music_title: "Inno Nazionale",
-        footer_copyright: "© 2025 Visit Pyongyang. Tutti i diritti riservati."
+        footer_copyright: "© 2025 Visit Pyongyang. Tutti i diritti riservati.",
+        nav_map: "Mappa",
+        map_title: "Mappa della Città",
+        map_subtitle: "Esplora i punti di interesse",
+        login_btn: "Accedi",
+        logout_btn: "Esci",
+        weather_city: "Pyongyang",
+        login_title: "Accedi",
+        login_username: "Utente",
+        login_password: "Password",
+        login_submit: "Entra",
+        login_fail: "Credenziali errate",
+        tab_login: "Accedi",
+        tab_register: "Registrati",
+        register_confirm: "Conferma Password",
+        register_submit: "Registrati",
+        register_success: "Registrazione completata! Ora puoi accedere.",
+        register_mismatch: "Le password non coincidono."
     },
 
     en: {
@@ -114,7 +131,24 @@ const translations = {
         history_modern_desc: "Modernization with new boulevards, residential architecture and square renewals; emphasis on monumentality and urban order.",
         music_title: "Nayional Anthem   ",
         footer_copyright:
-            "© 2025 Visit Pyongyang. All rights reserved."
+            "© 2025 Visit Pyongyang. All rights reserved.",
+        nav_map: "Map",
+        map_title: "City Map",
+        map_subtitle: "Explore points of interest",
+        login_btn: "Login",
+        logout_btn: "Logout",
+        weather_city: "Pyongyang",
+        login_title: "Login",
+        login_username: "Username",
+        login_password: "Password",
+        login_submit: "Enter",
+        login_fail: "Invalid credentials",
+        tab_login: "Login",
+        tab_register: "Register",
+        register_confirm: "Confirm Password",
+        register_submit: "Register",
+        register_success: "Registration successful! You can now login.",
+        register_mismatch: "Passwords do not match."
     },
 
     kp: {
@@ -173,7 +207,24 @@ const translations = {
         history_modern_desc: "현대화로 새로운 대로와 주거 건축, 광장 정비 진행; 도시의 기념성과 질서 강조.",
         music_title: "국가",
         footer_copyright:
-            "© 2025 Visit Pyongyang. 모든 권리 보유."
+            "© 2025 Visit Pyongyang. 모든 권리 보유.",
+        nav_map: "지도",
+        map_title: "도시 지도",
+        map_subtitle: "관심 지점 탐색",
+        login_btn: "로그인",
+        logout_btn: "로그아웃",
+        weather_city: "평양",
+        login_title: "로그인",
+        login_username: "사용자명",
+        login_password: "암호",
+        login_submit: "확인",
+        login_fail: "잘못된 정보",
+        tab_login: "로그인",
+        tab_register: "등록",
+        register_confirm: "암호 확인",
+        register_submit: "등록",
+        register_success: "등록 성공! 이제 로그인할 수 있습니다.",
+        register_mismatch: "암호가 일치하지 않습니다."
     },
 
     zh: {
@@ -232,7 +283,24 @@ const translations = {
         history_modern_desc: "通过新大道、住宅建筑与广场改造实现现代化；强调纪念性与城市秩序。",
         music_title: "国歌",
         footer_copyright:
-            "© 2025 Visit Pyongyang. 版权所有。"
+            "© 2025 Visit Pyongyang. 版权所有.",
+        nav_map: "地图",
+        map_title: "城市地图",
+        map_subtitle: "探索景点",
+        login_btn: "登录",
+        logout_btn: "登出",
+        weather_city: "平壤",
+        login_title: "登录",
+        login_username: "用户名",
+        login_password: "密码",
+        login_submit: "进入",
+        login_fail: "凭证无效",
+        tab_login: "登录",
+        tab_register: "注册",
+        register_confirm: "确认密码",
+        register_submit: "注册",
+        register_success: "注册成功！现在可以登录。",
+        register_mismatch: "密码不匹配。"
     },
 
     ar: {
@@ -290,92 +358,137 @@ const translations = {
         history_modern: "العصر الحديث",
         history_modern_desc: "تحديث الشوارع والعمارة السكنية وتجديد الساحات؛ التركيز على الطابع المهيب والنظام الحضري.",
         music_title: "النشيد الوطني",
-        footer_copyright: "© 2025 زيارة بيونغ يانغ. جميع الحقوق محفوظة."
+        footer_copyright: "© 2025 زيارة بيونغ يانغ. جميع الحقوق محفوظة.",
+        nav_map: "خريطة",
+        map_title: "خريطة المدينة",
+        map_subtitle: "استكشاف المعالم",
+        login_btn: "تسجيل الدخول",
+        logout_btn: "تسجيل الخروج",
+        weather_city: "بيونغ يانغ",
+        login_title: "تسجيل الدخول",
+        login_username: "اسم المستخدم",
+        login_password: "كلمة المرور",
+        login_submit: "دخول",
+        login_fail: "بيانات الاعتماد غير صالحة (جرب admin/admin)",
+        tab_login: "تسجيل الدخول",
+        tab_register: "تسجيل",
+        register_confirm: "تأكيد كلمة المرور",
+        register_submit: "تسجيل",
+        register_success: "تم التسجيل بنجاح! يمكنك الآن تسجيل الدخول.",
+        register_mismatch: "كلمات المرور غير متطابقة."
     },
     bn: {
-    navbar_brand: "উত্তর কোরিয়া",
-    nav_home: "হোম",
-    nav_monuments: "স্মৃতিস্তম্ভ",
-    nav_iconic_places: "প্রতীকী স্থান",
-    nav_info: "তথ্য",
-    hero_new: "নতুন!",
-    hero_title: "পিয়ংইয়াং",
-    hero_lead: "উত্তর কোরিয়ার রাজধানী আবিষ্কার করুন: স্মারক স্থাপত্য, প্রশস্ত রাস্তা এবং অনন্য শহুরে দৃশ্য।",
-    monuments_title: "প্রধান স্মৃতিস্তম্ভ",
-    monuments_subtitle: "উত্তর কোরিয়ান রাজধানীর সবচেয়ে প্রতীকী প্রতীকগুলি",
-    monument_arch: "বিজয় তোরণ",
-    monument_arch_desc: "বিশ্বের সবচেয়ে বড় বিজয় তোরণ, কোরিয়ান প্রতিরোধ উদযাপনের জন্য নির্মিত",
-    monument_juche: "জুচে টাওয়ার",
-    monument_juche_desc: "জুচে মতাদর্শের প্রতীক, শহরের একটি প্যানোরামিক দৃশ্য প্রদান করে",
-    monument_victory: "বিজয় স্মৃতিস্তম্ভ",
-    monument_victory_desc: "মাতৃভূমির মুক্তিযুদ্ধে বিজয় উদযাপন করে",
-    iconic_title: "প্রতীকী স্থান",
-    iconic_subtitle: "পিয়ংইয়াংয়ের সবচেয়ে প্রতিনিধিত্বমূলক স্থানগুলি",
-    place_ryomyong: "রিওমিওং স্ট্রিট",
-    place_ryomyong_desc: "অগ্রগামী স্থাপত্য সহ আধুনিক আবাসিক এলাকা",
-    place_kimilsung: "কিম ইল-সুং স্কয়ার",
-    place_kimilsung_desc: "জাতীয় প্যারেড ও উৎসবের জন্য প্রধান স্কয়ার",
-    place_moranbong: "মোরানবং পার্ক",
-    place_moranbong_desc: "শহরের হৃদয়ে একটি ঐতিহাসিক পার্ক",
-    nav_leader: "নেতা",
-    leader_title: "রাষ্ট্রীয় নেতা",
-    leader_subtitle: "কোরিয়ান গণতান্ত্রিক গণতন্ত্রী প্রজাতন্ত্রের প্রধান নেতারা",
-    leader_kis: "কিম ইল-সুং",
-    leader_kis_desc: "কোরিয়ান গণতান্ত্রিক গণতন্ত্রী প্রজাতন্ত্রের প্রতিষ্ঠাতা, চিরস্থায়ী রাষ্ট্রপতি",
-    leader_kji: "কিম জং-ইল",
-    leader_kji_desc: "১৯৯৪ থেকে ২০১১ পর্যন্ত কোরিয়ান গণতান্ত্রিক গণতন্ত্রী প্রজাতন্ত্রের নেতা",
-    leader_kju: "কিম জং-উন",
-    leader_kju_desc: "কোরিয়ান গণতান্ত্রিক গণতন্ত্রী প্রজাতন্ত্রের বর্তমান নেতা",
-    nav_customs: "রীতিনীতি",
-    nav_history: "ইতিহাস",
-    customs_title: "রীতিনীতি ও প্রথা",
-    customs_subtitle: "সামাজিক নিয়ম এবং দৈনন্দিন অভ্যাস",
-    customs_etiquette: "শিষ্টাচার",
-    customs_etiquette_desc: "সম্মান সহকারে অভিবাদন করুন (হালকা ঝুঁকে পড়ুন), হঠাৎ হাত-পা নাড়া এড়িয়ে চলুন; আঙুল দিয়ে ইশারা করবেন না, খোলা তালু ব্যবহার করুন; কণ্ঠস্বর মৃদু রাখুন।",
-    customs_greetings: "অভিবাদন",
-    customs_greetings_desc: "উপাধি এবং আনুষ্ঠানিক বাক্যাংশ ব্যবহার করুন; সভায় সর্বোচ্চ পদমর্যাদার ব্যক্তি থেকে পরিচয় শুরু হয়; ভিজিটিং কার্ড/জিনিসপত্র উভয় হাত দিয়ে দিন ও নিন।",
-    customs_public: "সর্বজনীন আচরণ",
-    customs_public_desc: "সর্বজনীন স্থানে শৃঙ্খলা ও সংযম বজায় রাখুন; যেখানে নিষেধ সেখানে ছবি তোলা এড়িয়ে চলুন; গাইডদের নির্দেশনা এবং অফিসিয়াল সাইনবোর্ড মেনে চলুন।",
-    customs_toggle: "দেখান/লুকান",
-    history_title: "ইতিহাস",
-    history_subtitle: "রাজধানীর প্রধান মাইলফলক",
-    history_toggle: "দেখান/লুকান",
-    history_foundation: "কোরিয়ান গণতান্ত্রিক গণতন্ত্রী প্রজাতন্ত্রের প্রতিষ্ঠা (১৯৪৮)",
-    history_foundation_desc: "রাষ্ট্র গঠন এবং পিয়ংইয়াং-এর রাজনৈতিক ও প্রতীকী রাজধানী হিসেবে ভূমিকা; প্রাথমিক শহুরে পরিকল্পনা এবং স্মৃতিস্তম্ভমূলক অক্ষ।",
-    history_reconstruction: "যুদ্ধোত্তর পুনর্গঠন",
-    history_reconstruction_desc: "প্রশস্ত রাস্তা, আবাসিক এলাকা এবং স্মৃতিস্তম্ভ সহ পুনর্গঠন; নাগরিক ও সাংস্কৃতিক অবকাঠামোর উন্নয়ন।",
-    history_modern: "আধুনিক যুগ",
-    history_modern_desc: "নতুন বুলেভার, আবাসিক স্থাপত্য এবং স্কয়ার সংস্কার সহ আধুনিকীকরণ; স্মারকত্ব এবং শহুরে শৃঙ্খলার উপর জোর দেওয়া হয়।",
-    music_title: "জাতীয় সঙ্গীত",
-    footer_copyright: "© ২০২৫ ভিজিট পিয়ংইয়াং। সর্বস্বত্ব সংরক্ষিত।"
-}
+        navbar_brand: "উত্তর কোরিয়া",
+        nav_home: "হোম",
+        nav_monuments: "স্মৃতিস্তম্ভ",
+        nav_iconic_places: "প্রতীকী স্থান",
+        nav_info: "তথ্য",
+        hero_new: "নতুন!",
+        hero_title: "পিয়ংইয়াং",
+        hero_lead: "উত্তর কোরিয়ার রাজধানী আবিষ্কার করুন: স্মারক স্থাপত্য, প্রশস্ত রাস্তা এবং অনন্য শহুরে দৃশ্য।",
+        monuments_title: "প্রধান স্মৃতিস্তম্ভ",
+        monuments_subtitle: "উত্তর কোরিয়ান রাজধানীর সবচেয়ে প্রতীকী প্রতীকগুলি",
+        monument_arch: "বিজয় তোরণ",
+        monument_arch_desc: "বিশ্বের সবচেয়ে বড় বিজয় তোরণ, কোরিয়ান প্রতিরোধ উদযাপনের জন্য নির্মিত",
+        monument_juche: "জুচে টাওয়ার",
+        monument_juche_desc: "জুচে মতাদর্শের প্রতীক, শহরের একটি প্যানোরামিক দৃশ্য প্রদান করে",
+        monument_victory: "বিজয় স্মৃতিস্তম্ভ",
+        monument_victory_desc: "মাতৃভূমির মুক্তিযুদ্ধে বিজয় উদযাপন করে",
+        iconic_title: "প্রতীকী স্থান",
+        iconic_subtitle: "পিয়ংইয়াংয়ের সবচেয়ে প্রতিনিধিত্বমূলক স্থানগুলি",
+        place_ryomyong: "রিওমিওং স্ট্রিট",
+        place_ryomyong_desc: "অগ্রগামী স্থাপত্য সহ আধুনিক আবাসিক এলাকা",
+        place_kimilsung: "কিম ইল-সুং স্কয়ার",
+        place_kimilsung_desc: "জাতীয় প্যারেড ও উৎসবের জন্য প্রধান স্কয়ার",
+        place_moranbong: "মোরানবং পার্ক",
+        place_moranbong_desc: "শহরের হৃদয়ে একটি ঐতিহাসিক পার্ক",
+        nav_leader: "নেতা",
+        leader_title: "রাষ্ট্রীয় নেতা",
+        leader_subtitle: "কোরিয়ান গণতান্ত্রিক গণতন্ত্রী প্রজাতন্ত্রের প্রধান নেতারা",
+        leader_kis: "কিম ইল-সুং",
+        leader_kis_desc: "কোরিয়ান গণতান্ত্রিক গণতন্ত্রী প্রজাতন্ত্রের প্রতিষ্ঠাতা, চিরস্থায়ী রাষ্ট্রপতি",
+        leader_kji: "কিম জং-ইল",
+        leader_kji_desc: "১৯৯৪ থেকে ২০১১ পর্যন্ত কোরিয়ান গণতান্ত্রিক গণতন্ত্রী প্রজাতন্ত্রের নেতা",
+        leader_kju: "কিম জং-উন",
+        leader_kju_desc: "কোরিয়ান গণতান্ত্রিক গণতন্ত্রী প্রজাতন্ত্রের বর্তমান নেতা",
+        nav_customs: "রীতিনীতি",
+        nav_history: "ইতিহাস",
+        customs_title: "রীতিনীতি ও প্রথা",
+        customs_subtitle: "সামাজিক নিয়ম এবং দৈনন্দিন অভ্যাস",
+        customs_etiquette: "শিষ্টাচার",
+        customs_etiquette_desc: "সম্মান সহকারে অভিবাদন করুন (হালকা ঝুঁকে পড়ুন), হঠাৎ হাত-পা নাড়া এড়িয়ে চলুন; আঙুল দিয়ে ইশারা করবেন না, খোলা তালু ব্যবহার করুন; কণ্ঠস্বর মৃদু রাখুন।",
+        customs_greetings: "অভিবাদন",
+        customs_greetings_desc: "উপাধি এবং আনুষ্ঠানিক বাক্যাংশ ব্যবহার করুন; সভায় সর্বোচ্চ পদমর্যাদার ব্যক্তি থেকে পরিচয় শুরু হয়; ভিজিটিং কার্ড/জিনিসপত্র উভয় হাত দিয়ে দিন ও নিন।",
+        customs_public: "সর্বজনীন আচরণ",
+        customs_public_desc: "সর্বজনীন স্থানে শৃঙ্খলা ও সংযম বজায় রাখুন; যেখানে নিষেধ সেখানে ছবি তোলা এড়িয়ে চলুন; গাইডদের নির্দেশনা এবং অফিসিয়াল সাইনবোর্ড মেনে চলুন।",
+        customs_toggle: "দেখান/লুকান",
+        history_title: "ইতিহাস",
+        history_subtitle: "রাজধানীর প্রধান মাইলফলক",
+        history_toggle: "দেখান/লুকান",
+        history_foundation: "কোরিয়ান গণতান্ত্রিক গণতন্ত্রী প্রজাতন্ত্রের প্রতিষ্ঠা (১৯৪৮)",
+        history_foundation_desc: "রাষ্ট্র গঠন এবং পিয়ংইয়াং-এর রাজনৈতিক ও প্রতীকী রাজধানী হিসেবে ভূমিকা; প্রাথমিক শহুরে পরিকল্পনা এবং স্মৃতিস্তম্ভমূলক অক্ষ।",
+        history_reconstruction: "যুদ্ধোত্তর পুনর্গঠন",
+        history_reconstruction_desc: "প্রশস্ত রাস্তা, আবাসিক এলাকা এবং স্মৃতিস্তম্ভ সহ পুনর্গঠন; নাগরিক ও সাংস্কৃতিক অবকাঠামোর উন্নয়ন।",
+        history_modern: "আধুনিক যুগ",
+        history_modern_desc: "নতুন বুলেভার, আবাসিক স্থাপত্য এবং স্কয়ার সংস্কার সহ আধুনিকীকরণ; স্মারকত্ব এবং শহুরে শৃঙ্খলার উপর জোর দেওয়া হয়।",
+        music_title: "জাতীয় সঙ্গীত",
+        footer_copyright: "© ২০২৫ ভিজিট পিয়ংইয়াং। সর্বস্বত্ব সংরক্ষিত।",
+        nav_map: "মানচিত্র",
+        map_title: "শহরের মানচিত্র",
+        map_subtitle: "আগ্রহের পয়েন্ট অন্বেষণ করুন",
+        login_btn: "লগইন",
+        logout_btn: "লগআউট",
+        weather_city: "পিয়ংইয়াং",
+        login_title: "লগইন",
+        login_username: "ব্যবহারকারীর নাম",
+        login_password: "পাসওয়ার্ড",
+        login_submit: "প্রবেশ করুন",
+        login_fail: "অবৈধ শংসাপত্র",
+        tab_login: "লগইন",
+        tab_register: "নিবন্ধন",
+        register_confirm: "পাসওয়ার্ড নিশ্চিত করুন",
+        register_submit: "নিবন্ধন",
+        register_success: "নিবন্ধন সফল! আপনি এখন লগইন করতে পারেন।",
+        register_mismatch: "পাসওয়ার্ড মিলছে না।"
+    }
 };
 
-//Cambio lingua
+// Configurazione Lingue
+const langConfig = {
+    it: { flag: "🇮🇹", title: "Pyongyang - Scopri la Capitale" },
+    en: { flag: "🇬🇧", title: "Pyongyang - Discover the Capital" },
+    zh: { flag: "🇨🇳", title: "平壤 - 首都" },
+    kp: { flag: "🇰🇵", title: "평양 - 수도" },
+    ar: { flag: "🇸🇦", title: "بيونغ يانغ - اكتشف العاصمة" },
+    bn: { flag: "🇧🇩", title: "পিয়ংইয়াং - রাজধানী আবিষ্কার করুন" }
+};
+
+//Cambio lingua ottimizzato
 function changeLang(lang) {
     document.documentElement.lang = lang;
     localStorage.setItem("lang", lang);
 
+    // Aggiorna testi
     document.querySelectorAll("[data-i18n]").forEach(el => {
         const key = el.getAttribute("data-i18n");
-        el.textContent = translations[lang][key] || "";
+        if (translations[lang] && translations[lang][key]) {
+            // Aggiunge un piccolo effetto fade se supportato
+            el.style.opacity = '0';
+            setTimeout(() => {
+                el.textContent = translations[lang][key];
+                el.style.opacity = '1';
+            }, 150);
+        }
     });
 
-    document.querySelector(".flag").textContent =
-        lang === "it" ? "🇮🇹" :
-        lang === "en" ? "🇬🇧" :
-        lang === "zh" ? "🇨🇳" : 
-        lang === "bn" ? "🇧🇩" : "🇰🇵";
-
-    document.querySelector(".lang-text").textContent =
-        lang.toUpperCase();
-
-    document.title =
-        lang === "it" ? "Pyongyang - Scopri la Capitale" :
-        lang === "en" ? "Pyongyang - Discover the Capital" :
-        lang === "zh" ? "平壤 - 首都" :
-        lang === "bn" ? "পিয়ংইয়াং - রাজধানী আবিষ্কার করুন" :
-    "평양 - 수도";
+    // Aggiorna UI selettore
+    const config = langConfig[lang] || langConfig['it'];
+    const flagEl = document.querySelector(".flag");
+    const langTextEl = document.querySelector(".lang-text");
+    
+    if(flagEl) flagEl.textContent = config.flag;
+    if(langTextEl) langTextEl.textContent = lang.toUpperCase();
+    document.title = config.title;
 }
 
 //Animazione fade-in
@@ -415,5 +528,148 @@ document.addEventListener("DOMContentLoaded", () => {
             musicWidget.classList.remove("hidden");
             musicOpen.style.display = "none";
         });
+    }
+
+    // Show/Hide Password Logic
+    function setupPasswordToggle(btnId, inputId) {
+        const btn = document.getElementById(btnId);
+        const input = document.getElementById(inputId);
+        if(btn && input) {
+            btn.addEventListener("click", () => {
+                const type = input.getAttribute("type") === "password" ? "text" : "password";
+                input.setAttribute("type", type);
+                btn.querySelector("i").classList.toggle("bi-eye");
+                btn.querySelector("i").classList.toggle("bi-eye-slash");
+            });
+        }
+    }
+    setupPasswordToggle("togglePassword", "password");
+    setupPasswordToggle("toggleRegPassword", "reg_password");
+
+    // LOGIN LOGIC
+    const loginForm = document.getElementById("loginForm");
+    const registerForm = document.getElementById("registerForm");
+    const loginBtn = document.getElementById("loginBtn");
+    const logoutBtn = document.getElementById("logoutBtn");
+    const loginModalEl = document.getElementById("loginModal");
+    const loginModal = new bootstrap.Modal(loginModalEl);
+    const loginAlert = document.getElementById("loginAlert");
+    const registerAlert = document.getElementById("registerAlert");
+
+    // Check if already logged in
+    if(localStorage.getItem("isLoggedIn") === "true") {
+        loginBtn.classList.add("d-none");
+        logoutBtn.classList.remove("d-none");
+    }
+
+    loginForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const u = document.getElementById("username").value;
+        const p = document.getElementById("password").value;
+        const currentLang = document.documentElement.lang || "it";
+
+        // Simple validation (admin/admin or registered user check could go here)
+        const btn = loginBtn.querySelector('span');
+        const originalText = btn.textContent;
+        
+        // Simulate loading for "response speed" feedback
+        btn.textContent = "...";
+        loginForm.querySelector('button[type="submit"]').disabled = true;
+
+        setTimeout(() => {
+            loginForm.querySelector('button[type="submit"]').disabled = false;
+            btn.textContent = originalText;
+
+            const users = JSON.parse(localStorage.getItem("registeredUsers") || "{}");
+            
+            if ((u === "admin" && p === "admin") || (users[u] && users[u] === p)) {
+                localStorage.setItem("isLoggedIn", "true");
+                
+                // Hide modal
+                loginModal.hide();
+                
+                // Update UI
+                loginBtn.classList.add("d-none");
+                logoutBtn.classList.remove("d-none");
+                loginForm.reset();
+                loginAlert.classList.add("d-none");
+            } else {
+                // Show error in modal
+                loginAlert.textContent = translations[currentLang].login_fail;
+                loginAlert.classList.remove("d-none");
+            }
+        }, 400); // Small delay for feedback
+    });
+
+    registerForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const p1 = document.getElementById("reg_password").value;
+        const p2 = document.getElementById("reg_confirm").value;
+        const currentLang = document.documentElement.lang || "it";
+
+        if (p1 !== p2) {
+            registerAlert.className = "alert alert-danger";
+            registerAlert.textContent = translations[currentLang].register_mismatch;
+            registerAlert.classList.remove("d-none");
+        } else {
+            const u = document.getElementById("reg_username").value;
+            
+            // Save user to localStorage
+            const users = JSON.parse(localStorage.getItem("registeredUsers") || "{}");
+            users[u] = p1;
+            localStorage.setItem("registeredUsers", JSON.stringify(users));
+
+            // Simulate registration
+            registerAlert.className = "alert alert-success";
+            registerAlert.textContent = translations[currentLang].register_success;
+            registerAlert.classList.remove("d-none");
+            registerForm.reset();
+            
+            // Switch to login tab after 0.6s (faster response)
+            setTimeout(() => {
+               const loginTab = new bootstrap.Tab(document.getElementById('login-tab'));
+               loginTab.show();
+               registerAlert.classList.add("d-none");
+            }, 600);
+        }
+    });
+
+    logoutBtn.addEventListener("click", () => {
+        localStorage.removeItem("isLoggedIn");
+        window.location.reload();
+    });
+
+    // WEATHER API (Open-Meteo)
+    fetchWeather();
+    
+    function fetchWeather() {
+        // Coordinates for Pyongyang
+        const lat = 39.0339;
+        const lon = 125.7543;
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`;
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                const temp = data.current_weather.temperature;
+                const weatherCode = data.current_weather.weathercode;
+                
+                const tempEl = document.getElementById("weather-temp");
+                const iconEl = document.getElementById("weather-icon");
+
+                if(tempEl) tempEl.textContent = `${temp}°C`;
+                if(iconEl) iconEl.className = getWeatherIcon(weatherCode) + " fs-1 text-warning";
+            })
+    }
+
+    function getWeatherIcon(code) {
+        if (code === 0) return "bi bi-sun";
+        if (code >= 1 && code <= 3) return "bi bi-cloud-sun";
+        if (code >= 45 && code <= 48) return "bi bi-cloud-haze";
+        if (code >= 51 && code <= 67) return "bi bi-cloud-rain";
+        if (code >= 71 && code <= 77) return "bi bi-snow";
+        if (code >= 80 && code <= 82) return "bi bi-cloud-drizzle";
+        if (code >= 95) return "bi bi-cloud-lightning";
+        return "bi bi-cloud";
     }
 });
